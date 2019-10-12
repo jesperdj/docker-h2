@@ -10,8 +10,8 @@ Run a container:
 
 Access the H2 Console at: http://localhost:8082/
 
-Connect to a database named `test` using JDBC:
+Connect to a database named `test` using JDBC (the database will automatically be created if it does not yet exist):
 
-- JDBC URL: `jdbc:h2:tcp://localhost/~/test`
+- JDBC URL: `jdbc:h2:tcp://localhost/test`
 - Username: `sa`
 - Pasword: (none)
