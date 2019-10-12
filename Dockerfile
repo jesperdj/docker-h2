@@ -1,9 +1,9 @@
 FROM adoptopenjdk:11-jre-hotspot
 
 ENV H2_ZIP http://www.h2database.com/h2-2019-03-13.zip
-ENV H2_DATA /var/lib/h2
 ENV H2_PORT 9092
 ENV H2_CONSOLE_PORT 8082
+ENV H2_DATA /var/lib/h2
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y unzip && \
     curl ${H2_ZIP} -o h2.zip && unzip -q h2.zip -d /opt/ && rm h2.zip && \
