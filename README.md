@@ -4,6 +4,10 @@ Build the image:
 
     docker build -t h2 .
 
+Or pull it from Docker Hub:
+
+    docker pull jesperdj/h2
+
 Run a container:
 
     docker run -d -p 8082:8082 -p 9092:9092 --name exampledb h2
