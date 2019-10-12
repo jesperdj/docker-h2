@@ -6,7 +6,11 @@ Build the image:
 
 Run a container:
 
-    docker run -d -p 8082:8082 -p 9092:9092 --name h2database h2
+    docker run -d -p 8082:8082 -p 9092:9092 --name exampledb h2
+
+Check the logs:
+
+    docker logs -f exampledb
 
 Access the H2 Console at: http://localhost:8082/
 
