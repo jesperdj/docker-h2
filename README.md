@@ -2,7 +2,7 @@
 
 Build the image:
 
-    docker build -t h2 .
+    docker build -t jesperdj/h2 .
 
 Or pull it from Docker Hub:
 
@@ -10,7 +10,7 @@ Or pull it from Docker Hub:
 
 Run a container:
 
-    docker run -d -p 8082:8082 -p 9092:9092 --name exampledb h2
+    docker run -d -p 8082:8082 -p 9092:9092 --name exampledb jesperdj/h2
 
 Check the logs:
 
