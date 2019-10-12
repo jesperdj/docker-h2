@@ -14,4 +14,4 @@ Connect to a database named `test` using JDBC (the database will automatically b
 
 - JDBC URL: `jdbc:h2:tcp://localhost/test`
 - Username: `sa`
-- Pasword: (none)
+- Password: (none)
