@@ -1,5 +1,7 @@
 # H2 Database in Docker
 
+A small and simple Docker image for running [H2 Database](http://h2database.com) in a container.
+
 Build the image:
 
     docker build -t jesperdj/h2 .
